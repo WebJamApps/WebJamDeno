@@ -28,9 +28,9 @@ class Database {
    */
   async insertOne() {
     const document = {
-      firstName: "Joe",
-      LastName: "Smith",
-      amount: 10000,
+      firstName: "Jessy",
+      LastName: "Jones",
+      amount: 20000,
       year: 2022
     }
     const DATA_SOURCE = "Cluster0";
