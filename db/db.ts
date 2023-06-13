@@ -28,10 +28,10 @@ class Database {
    */
   async insertOne() {
     const document = {
-      firstName: "Jessy",
-      LastName: "Jones",
-      amount: 20000,
-      year: 2022
+      firstName: "Tim",
+      LastName: "Tiny",
+      amount: 30000,
+      year: 2021
     }
     const DATA_SOURCE = "Cluster0";
 const DATABASE = "CLC-dev";
